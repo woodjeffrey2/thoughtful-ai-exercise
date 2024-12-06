@@ -43,3 +43,5 @@ try:
 except ValueError as e:
   assert str(e) == 'Width, height, length, and mass must be greater than 0', \
     'Should raise ValueError when width is 0'
+
+print('All test cases passed')
